@@ -15,8 +15,8 @@
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
-global.audio = "";
-global.video = "";
+global.audio = "https://i.imgur.com/Ujbwlbu.jpeg";
+global.video = "https://i.imgur.com/Ujbwlbu.jpeg";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "wallyjay123@gmail.com";
@@ -34,7 +34,7 @@ global.website =
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
-  "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg";
+  "https://i.imgur.com/Ujbwlbu.jpeg";
 global.devs = "2348144317152";
 global.sudo = process.env.SUDO || "2348144317152,2348155763709,2348054984935";
 global.owner = process.env.OWNER_NUMBER || "2348144317152";
